@@ -1,4 +1,23 @@
-# The Floor Test - Constitutional Majority Simulator
+# The Floor Test: Indian parliamentary majority simulator
+
+> The Floor Test: an interactive simulator that teaches Indian parliamentary majorities and floor tests through concept cards, a voting game and timed problems.
+
+**[Live site](https://axomrank.github.io/floor-test-simulator/)** · [Part of AxomRank](https://github.com/axomrank)
+
+## At a glance
+
+- **Learn:** concept cards and a live chart. Adjust total strength, vacancies and absentees to see the threshold change
+- **Play:** drag party blocs into Aye or Nay and check the result against the constitutional rule
+- **Examine:** timed word problems (25 seconds each) with worked explanations
+- **Progress** (XP, ranks from Backbencher to Prime Minister) is saved in `localStorage`. Single page, vanilla JS
+
+## Quick start
+
+```bash
+python3 -m http.server 8000   # open http://localhost:8000
+```
+
+## Overview
 
 An interactive, responsive, single-page educational web application designed to help candidates mastering high-stakes Indian competitive exams (e.g., UPSC CSE) understand the mathematical formulas and operational mechanics of parliamentary floor tests.
 
@@ -40,3 +59,32 @@ You can host the application using any local web server. For convenience, a Pyth
    ```
 3. Open your browser and navigate to:
    [http://localhost:8000](http://localhost:8000)
+
+## Roadmap: future improvements
+
+- [ ] Fold it into the AxomRank Indian Polity course as an interactive lesson
+- [ ] Add Assamese text
+- [ ] Add Assam Legislative Assembly scenarios (126 seats)
+- [ ] Add an accessibility pass: keyboard drag-and-drop alternative, colour contrast
+- [ ] Check each worked answer against the Constitution's articles
+
+## For AI agents and contributors
+
+Read [AGENTS.md](AGENTS.md) and [CONTEXT.md](CONTEXT.md) for the state model and coding rules.
+
+Commit as the `axomrank` account. Keep changes small and reviewable, and run the repository's checks before pushing.
+
+## Part of AxomRank
+
+[AxomRank](https://axomrank.pages.dev) offers free, bilingual preparation for Assam government exams. Related repositories:
+
+- **Learn:** [axomrank.github.io](https://github.com/axomrank/axomrank.github.io) (the AxomRank learning app), [ahom-kings-lessons](https://github.com/axomrank/ahom-kings-lessons) (41 bilingual Ahom reign lessons)
+- **Explore Assam history:** [ahom-kingdom-history](https://github.com/axomrank/ahom-kingdom-history) (illustrated Ahom kingdom website), [assam-history-map](https://github.com/axomrank/assam-history-map) (year-by-year historical map), [assam-history-characters](https://github.com/axomrank/assam-history-characters) (character sheets for Assam's history), [assam-visual-archive](https://github.com/axomrank/assam-visual-archive) (gallery of Assam scenes and photographs), [assam-heritage-ai-art](https://github.com/axomrank/assam-heritage-ai-art) (AI art gallery of Assamese heritage)
+- **Open data:** [assam-exam-pyq](https://github.com/axomrank/assam-exam-pyq) (2,398 previous-year questions with answers), [assam-exam-syllabus](https://github.com/axomrank/assam-exam-syllabus) (syllabi for 12 recruitment boards), [assam-maps](https://github.com/axomrank/assam-maps) (map portal and GIS layers), [assam-history-sources](https://github.com/axomrank/assam-history-sources) (Kamarupa inscriptions and primary sources)
+- **Publishing and brand:** [axomrank-blog](https://github.com/axomrank/axomrank-blog) (exam guides built from real papers), [assam-history-books](https://github.com/axomrank/assam-history-books) (13-book history of Assam), [axomrank-brand-assets](https://github.com/axomrank/axomrank-brand-assets) (brand kit and social media library)
+
+## License and contact
+
+No license file yet, so all rights are reserved by default.
+
+Corrections and questions: open an issue in this repository. AxomRank is run by Angsuman Das (sole proprietor).
